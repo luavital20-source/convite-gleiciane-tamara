@@ -1,0 +1,10 @@
+{
+  "name": "convite-gleiciane-tamara",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Convite de casamento com lista de presentes via Mercado Pago (Checkout Pro).",
+  "dependencies": {
+    "mercadopago": "^2.0.15"
+  }
+}

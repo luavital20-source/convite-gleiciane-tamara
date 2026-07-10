@@ -633,7 +633,7 @@ document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 
 /* ---------- PRESENTES / PIX / MERCADO PAGO ---------- */
 const PIX="a3e52def-fe7e-45ec-b4ec-3213a799212d";
-const MP_API="";/* <== URL do backend do Mercado Pago (será preenchida na etapa de integração) */
+const MP_API="/api";/* Site + backend publicados juntos na Vercel. Se o site ficar no GitHub Pages, troque para "https://SEU-PROJETO.vercel.app/api" */
 function toast(msg){const t=document.getElementById('pix-toast');t.textContent=msg;t.classList.add('show');clearTimeout(window.__tt);window.__tt=setTimeout(()=>t.classList.remove('show'),2500);}
 function copyPix(){
   const done=()=>toast('Chave Pix copiada!');

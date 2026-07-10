@@ -1,0 +1,12 @@
+# Dependências
+node_modules
+
+# Variáveis de ambiente (NUNCA commitar o access token)
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+.env*
+!.env.example
